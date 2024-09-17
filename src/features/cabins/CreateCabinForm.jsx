@@ -52,10 +52,8 @@ function CreateCabinForm({ cabinToEdit = {} }) {
   const isWorking = isCreating || isEditing;
 
   function onSubmit(data) {
-    console.log(data);
     const image = typeof data.image === 'string' ? data.image : data.image?.[0]
-    console.log(image);
-    console.log(isEditing);
+  
     if (isEditSession) {
       editCabin({ newCabinData: { ...data, image }, id: editId });
     } else {
