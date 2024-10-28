@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import CabinTable from "../features/cabins/CabinTable-v2";
+import CabinTable from "../features/cabins/CabinTable-v3";
 import Heading from "../ui/Heading";
 import Row from "../ui/Row";
 import Button from "../ui/Button";
